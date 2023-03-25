@@ -21,9 +21,9 @@ body {
 .container {
   width: 500px;
   padding: 10px;
-  border: 10px solid#ECAB9E;
+  border: 10px solid#0e9fe2;
   border-radius: 20px;
-  background-color: gray;
+  background-color: rgb(178, 202, 175);
 }
 
 .header {
