@@ -20,7 +20,7 @@ const Home = () => {
   const getTask = async () => {
     const { data } = await axios(url)
     setTask(data);
-    console.log(data)
+    console.log(data);
   }
 
   useEffect(() => {
