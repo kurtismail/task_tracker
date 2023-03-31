@@ -12,13 +12,13 @@ const Home = () => {
 
   const toggle = () => {
     setIsOpen(!isOpen);
-    const buttonText = isOpen ? "Show Task Bar" : "Hide Task Bar"
+    const buttonText = isOpen ? "Show Task Bar" : "Hide Task Bar";
     setText(buttonText);
   }
 
   // CRUD  -READ--
   const getTask = async () => {
-    const { data } = await axios(url)
+    const { data } = await axios(url);
     setTask(data);
     console.log(data);
   }
