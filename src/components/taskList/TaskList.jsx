@@ -24,7 +24,7 @@ const TaskList = ({ task, getTask }) => {
         return (
           <div
             key={id}
-            className="mt-2 d-flex justify-content-between bg-secondary rounded-2 p-2" >
+            className="mt-2 d-flex justify-content-between text-dark bg-opacity-75 bg-light rounded-2 p-2" >
             <div>
               <h4>{task}</h4>
               <p>{date}</p>
