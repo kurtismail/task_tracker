@@ -1,5 +1,5 @@
 import React from 'react'
-import { RiDeleteBack2Fill } from "react-icons/ri"
+import { RiDeleteBin6Fill } from "react-icons/ri"
 import axios from "axios";
 
 
@@ -30,13 +30,13 @@ const TaskList = ({ task, getTask }) => {
               <p>{date}</p>
             </div>
             <div>
-              <RiDeleteBack2Fill
+              <RiDeleteBin6Fill
                 onClick={() => deleteTask(id)}
                 style={{
+                  color: "#f12f2f",
                   cursor: "pointer",
-                  marginRight: "20px",
+                  marginRight: "15px",
                   fontSize: "2rem",
-                  boxShadow: "2px 2px 2px #ECAB9E"
                 }} />
             </div>
           </div>
